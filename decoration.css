@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: #fff;
+}
+
+i {
+    color: red;
+    font-size: 20px;
+
+}
+
+.food1 {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    gap: 10px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.side {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: right;
+    gap: 5px;
+    margin-right: 20px;
+    height: 0%;
+    margin-bottom: 20px;
+
+    }
+.dav1{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(224, 213, 213);
+    padding: 5px 5px 5px 5px;
+    
+}
+.dav2{
+    border: none;
+    border-radius: 5px;
+    background-color: chocolate;
+    padding: 5px 5px 5px 5px
+
+}
+
+/* main{
+    background-image: url(IMAGE/background1.png);
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+} */
+
+.bord {
+    border-bottom: #e3cfcf 2px solid;
+    box-shadow: #ece4e4;
+    padding-bottom: 10px;
+}
+
+.menu {
+    background-image: url(IMAGE/background1.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
+h1{
+    color: chocolate;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: 2000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.app{
+    padding-left: 20px;
+    font-size: large;
+    padding-top: 50px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(50, 44, 44);
+}
+
+/* .fooding{
+    width: 120px;
+    height: 80px;
+    display: flex;
+    justify-content: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+} */
+
+.food-section {
+    background-color: #e3cfcf;
+    padding: 4rem;
+}
+ @media screen and (max-width:769px) {
+    .food-section {
+        padding: 1rem;
+        
+    }
+ }
+
+ .food-flex-container {
+    background-color: #ece4e4;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom: 1px #a1a1a1 solid;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+ }
+
+.food-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+}
+
+@media screen and (max-width:769px) {
+    .food-items {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+.yum3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.yumimage {
+    width: 140px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.text-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+@media screen and (max-width:769px) {
+    .text-price {
+        align-self: flex-end;
+    }
+}
+
+.text-price .cart {
+    background-color: rgb(209, 132, 10);
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.text-price .price {
+    font-weight: 700;
+    color: green;
+}
+
+.Course{
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    display: flex;
+    margin-left: 30px;
+}
+
+.maincourse-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 769px) {
+    .maincourse-section {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.main-flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+@media screen and (max-width: 769px) {
+    .main-flex-container {
+        gap: 1rem;
+    }
+}
+
+.main-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-main {
+    text-wrap: nowrap;
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+
+.main-img {
+    width: 140px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.flex-parent-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+    background-color: #eae5e5;
+    place-content: left;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.flex-parent-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+    background-color: #eae5e5;
+    place-content: left;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+
+@media screen and (max-width:769px) {
+    .flex-parent-right {
+        
+        gap: 10px;
+    }
+}
+
+.ola-money{
+    margin: 10px 5px 10px 5px;
+    
+}
+
+.midnight{
+    background-color: #745757;
+    
+}
+.Information{
+    text-align: center;
+    font-size: larger;
+    color: white;
+    padding-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.what {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 10px;
+}
+.what i {
+    color: green;
+    font-size: 25px;
+}
+.what h3{
+    color: white;
+    font-size: large;
+}
+
+.who {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 10px;
+}
+.who i {
+    color: rgb(30, 9, 101);
+    font-size: 25px;
+}
+.who h3{
+    color: white;
+    font-size: large;
+}
+
+.whose {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 10px;
+}
+.whose i {
+    color:gray;
+    font-size: 25px;
+}
+.whose h3{
+    color: white;
+    font-size: large;
+}
+
+.why {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 10px;
+}
+.why i {
+    color:rgb(18, 2, 2);
+    font-size: 25px;
+}
+.why h3{
+    color: white;
+    font-size: large;
+    padding-bottom: 10px;
+}
+
+.lastly {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #2d1212;
+    border-top: #532b2b solid 1px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
